@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Service</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <span> <img src="assets/logo.png" alt="Bangladesh Government Logo" class="nav-logo"> </span>
+            
+            <span class="website-name ">Emergency <br> Service</span>
+        </div>
+        <div class="navbar-right">
+            <div class="nav-card">
+                <span class="nav-value" id="fav-count">0</span>
+                <img src="assets/heart.png" alt="Heart Icon" class="nav-icon">
+            </div>
+            <div class="nav-card">
+                <span class="nav-value" id="coin-count">100</span>
+                <img src="assets/coin.png" alt="Coin Icon" class="nav-icon">
+            </div>
+            <button class="copy-btn-nav" id="copy-count">0 Copy</button>
+        </div>
+    </nav>
+
+
+    <header class="hero-section">
+
+        <img src="assets/logo-dark.png" alt="Bangladesh Government Logo" class="hero-logo">
+        <h2 class="hero-title">Emergency Service Directory</h2>
+        <p class="hero-slogan">Government Emergency Services at Your Fingertip – A Project by Government of the People’s Republic of Bangladesh</p>
+    </header>
+    
+    <main class="main-section">
+        <section class="card-section" id="card-section">
+            <!-- Cards will render here -->
+        </section>
+        <section class="history-section">
+            <div class="history-header">
+                <h3 class="history-title">
+                    <img src="assets/history.svg" alt="History Icon" style="width:24px;height:24px;vertical-align:middle;">
+                    Call History
+                </h3>
+                <button id="clear-history-btn" class="clear-btn">Clear</button>
+            </div>
+            <div class="call-history-list" id="call-history-list">
+                <!-- History items will render here -->
+            </div>
+        </section>
+    </main>
+
+        <script src="script.js"></script>
+</body>
+</html>
